@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    color: #132741;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    margin: 55px 0;
+    box-shadow: 0 0 5px #6897cc;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #d1d3d3;
+    text-align: justify;
+}
+
+thead tr > th {
+    padding: 5px 15px;
+    border: 1px solid #dde4e4;
+}
+
+tbody tr > td {
+    padding: 5px 15px;
+    border: 1px solid #d1d3d3;
+}
+
+tbody tr > td {
+    position: relative;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e1f5f5;
+}
+
+tbody tr:hover {
+    background-color: #d1d3d3;
+    border: 1px solid #d1d3d3;
+}
+
+tbody tr:hover {
+   border: none;
+}
+
+thead tr > th:nth-child(4) {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #6897cc; 
+    box-shadow: 0 0 2px #6897cc;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #777676;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+select {
+    position: relative;
+    width: 240px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+input:focus,
+select:focus {
+    border: 1px solid #6897cc;
+    box-shadow: 0 0 2px #6897cc;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.button {
+    position: absolute;
+    top: 5%;
+    left: -30%;
+    width: 20px;
+    height: 25px;
+}
+
+.formadd {
+    max-width: 500px;
+}
+
+.flex {
+    display: flex;
+}
+
+.butt-style {
+    background-color: #fff;
+    border: 1px solid #1b3d68;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butt-style:hover {
+    color: #316197;
+    border: 1px solid #6897cc;
+    background-color: #c7daf0;
+    box-shadow: 0 0 2px #6897cc;
+}
+
+.butt-style:focus {
+    border: 1px solid #6897cc;
+}
+
+.arrow {
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform: rotate(45deg);
+}
